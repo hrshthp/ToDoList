@@ -55,11 +55,11 @@ export default function todo() {
             {todo.map((todo, index) => (
               <li
                 key={index}
-                className="flex justify-between text-[#df6186] mb-2 items-center mr-4"
+                className="flex justify-between text-[#df6186] mb-2 items-center "
               >
                 <span>{todo}</span>
                 <button
-                  className={` text-red-600 ${pops.className} mx-1 hover:rounded-full p-2 hover:cursor-pointer hover:text-[#fcfcfc] hover:bg-[#c50000]`}
+                  className={` text-red-600 ${pops.className} ml-4 hover:rounded-full p-2 hover:cursor-pointer hover:text-[#fcfcfc] hover:bg-[#c50000]`}
                   onClick={() => deleteTask(index)}
                 >
                   Delete
