@@ -29,7 +29,7 @@ export default function todo() {
       <div className="min-h-screen justify-center items-center flex  bg-[#fee4e4]">
         <div className="bg-[#fdf7f7] border-1.3  border-[#df6186] items-center max-w-md w-full shadow-[#e10945] shadow-2xs  rounded-4xl p-6">
           <h1
-            className={`text-3xl mb-3 font-extrabold my-3 text-[#e10945] justify-between ${BBH.className}`}
+            className={`text-3xl mb-6 font-extrabold my-3 text-[#e10945] justify-between ${BBH.className}`}
           >
             To-Do List
           </h1>
@@ -51,15 +51,15 @@ export default function todo() {
               Add
             </button>{" "}
           </div>
-          <ul className={` ${pops.className}`}>
+          <ul className={`ml-3 ${pops.className}`}>
             {todo.map((todo, index) => (
               <li
                 key={index}
-                className="flex justify-between mt-2 text-[#df6186] space-y-2"
+                className="flex justify-between text-[#df6186] items-center"
               >
                 <span>{todo}</span>
                 <button
-                  className={` text-red-600 ${pops.className} hover:rounded-full p-2 hover:cursor-pointer hover:text-[#fcfcfc] hover:bg-[#c50000]`}
+                  className={` text-red-600 ${pops.className} mx-2 hover:rounded-full p-2 hover:cursor-pointer hover:text-[#fcfcfc] hover:bg-[#c50000]`}
                   onClick={() => deleteTask(index)}
                 >
                   Delete
