@@ -58,7 +58,7 @@ export default function todo() {
               className="rounded-2xl focus:ring-0 focus:outline-[#df6186] focus:outline-border-1.3 w-full active:ring-[#df6186] p-2 bg-[] justify-between text-[#e45d85] border-[#e45d85]"
             />
             <button
-              className={`text-[#e45d85] ml-2 ${BBH.className} hover:rounded-full p-2 hover:cursor-pointer hover:scale-100 hover:text-[#fdf7f7] hover:bg-[#df6186]`}
+              className={`text-[#e45d85]  ${BBH.className} hover:rounded-full p-2 hover:cursor-pointer hover:scale-100 hover:text-[#fdf7f7] hover:bg-[#df6186]`}
               onClick={addTask}
             >
               Add
@@ -81,7 +81,7 @@ export default function todo() {
                   </span>
                   <div className="flex">
                     <Image
-                      src="/check-mark.png"
+                      src="/completed.png"
                       alt="Complete task"
                       width={20}
                       height={20}
@@ -90,12 +90,12 @@ export default function todo() {
                     />
 
                     <Image
-                      src="/delete.png"
+                      src="/deleted.png"
                       alt="Complete Task"
                       width={21}
                       height={21}
                       onClick={() => deleteTask(item.id)}
-                      className="cursor-pointer hover:scale-110"
+                      className="cursor-pointer hover:scale-110 mr-2"
                     />
                   </div>
                 </li>
