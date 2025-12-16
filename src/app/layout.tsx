@@ -15,9 +15,24 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "ToDo List",
-  description: "By Hash",
+  description: "A pink, minimalist to-do list built by Hsh",
   icons: {
     icon: "/favicon.png",
+  },
+  openGraph: {
+    title: "To-Do List App",
+    description: "Plan your day with this clean to-do app",
+    url: "https://todobyh.vercel.app",
+    siteName: "To-Do App",
+    images: [
+      {
+        url: "/preview.png",
+        width: 1200,
+        height: 630,
+        alt: "To-Do App Preview",
+      },
+    ],
+    type: "website",
   },
 };
 

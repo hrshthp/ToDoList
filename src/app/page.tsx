@@ -39,7 +39,7 @@ export default function todo() {
   };
   return (
     <>
-      <div className="min-h-screen justify-center items-center flex  bg-linear-to-r from-pink-400 via-rose-200 to-pink-400 animate-gradient">
+      <div className="min-h-screen justify-center items-center flex  bg-linear-to-r from-pink-300 via-rose-200 to-pink-200 animate-gradient">
         <div className="bg-[#fdf7f7] border-1.3 my-10  border-[#df6186] items-center max-w-md mx-10 w-full shadow-[#e10945] shadow-2xs  rounded-4xl p-6">
           <h1
             className={`text-3xl mb-6 font-extrabold my-3 text-[#e10945] justify-between ${BBH.className}`}
