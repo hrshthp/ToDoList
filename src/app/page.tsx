@@ -85,7 +85,7 @@ export default function todo() {
                       alt="Complete task"
                       width={20}
                       height={20}
-                      className="cursor-pointer hover:scale-110  mr-3"
+                      className="cursor-pointer hover:scale-110  mr-4"
                       onClick={() => toggleTask(item.id)}
                     />
 
