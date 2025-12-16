@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "To-Do App",
     images: [
       {
-        url: "/preview.png",
+        url: "/prev.png",
         width: 1200,
         height: 630,
         alt: "To-Do App Preview",
